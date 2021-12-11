@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../Library/Android/sdk/platforms/android-31/data/res/layout/simple_spinner_dropdown_item.xml" value="0.22135416666666666" />
+        <entry key="app/src/main/res/drawable-v24/ic_display.xml" value="0.37222222222222223" />
+        <entry key="app/src/main/res/drawable-v24/ic_user.xml" value="0.37222222222222223" />
+        <entry key="app/src/main/res/drawable/add_button_state.xml" value="0.3611111111111111" />
+        <entry key="app/src/main/res/drawable/blue_outline.xml" value="0.27708333333333335" />
+        <entry key="app/src/main/res/drawable/button_background.xml" value="0.3611111111111111" />
+        <entry key="app/src/main/res/drawable/card_background_android.xml" value="0.16111111111111112" />
+        <entry key="app/src/main/res/drawable/card_backround_ios.xml" value="0.16111111111111112" />
+        <entry key="app/src/main/res/drawable/dialog_rounded_corner.xml" value="0.3611111111111111" />
+        <entry key="app/src/main/res/drawable/ic_android.xml" value="0.16111111111111112" />
+        <entry key="app/src/main/res/drawable/ic_arrow_down.xml" value="0.27708333333333335" />
+        <entry key="app/src/main/res/drawable/ic_arrow_left.xml" value="0.27708333333333335" />
+        <entry key="app/src/main/res/drawable/ic_circle.xml" value="0.3611111111111111" />
+        <entry key="app/src/main/res/drawable/ic_database.xml" value="0.16111111111111112" />
+        <entry key="app/src/main/res/drawable/ic_display.xml" value="0.37222222222222223" />
+        <entry key="app/src/main/res/drawable/ic_home.xml" value="0.37222222222222223" />
+        <entry key="app/src/main/res/drawable/ic_html.xml" value="0.16111111111111112" />
+        <entry key="app/src/main/res/drawable/ic_minus.xml" value="0.3611111111111111" />
+        <entry key="app/src/main/res/drawable/ic_pass.xml" value="0.27708333333333335" />
+        <entry key="app/src/main/res/drawable/ic_plus.xml" value="0.3611111111111111" />
+        <entry key="app/src/main/res/drawable/ic_user.xml" value="0.37222222222222223" />
+        <entry key="app/src/main/res/drawable/rounded.xml" value="0.27708333333333335" />
+        <entry key="app/src/main/res/drawable/rounded_card_background.xml" value="0.3611111111111111" />
+        <entry key="app/src/main/res/drawable/shadow_for_profile_img.xml" value="0.3611111111111111" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.2609375" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.27123287671232876" />
+        <entry key="app/src/main/res/layout/add_skill_dialog.xml" value="0.2740036231884058" />
+        <entry key="app/src/main/res/layout/delete_skill_dialog.xml" value="0.2740036231884058" />
+        <entry key="app/src/main/res/layout/fragment_emp_detail.xml" value="0.2740036231884058" />
+        <entry key="app/src/main/res/layout/fragment_emp_list.xml" value="0.19583333333333333" />
+        <entry key="app/src/main/res/layout/fragment_lead.xml" value="0.2609375" />
+        <entry key="app/src/main/res/layout/fragment_new_emp.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/row_emp_card_data.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/row_emp_detail_commit.xml" value="0.2740036231884058" />
+        <entry key="app/src/main/res/layout/row_emp_detail_skill.xml" value="0.2740036231884058" />
+        <entry key="app/src/main/res/layout/spin_item_position.xml" value="0.2609375" />
+        <entry key="app/src/main/res/layout/view_drop_down.xml" value="0.2694746376811594" />
+        <entry key="app/src/main/res/layout/view_progress_bar.xml" value="0.2740036231884058" />
+        <entry key="app/src/main/res/menu/menu_navigation_bar.xml" value="0.3880208333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

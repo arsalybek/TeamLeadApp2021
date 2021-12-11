@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:opacity="opaque">
+    <item
+        android:drawable="@drawable/ic_database"
+        android:left="212dp"
+        android:top="138dp"
+        android:width="95dp"
+        android:height="95dp">
+    </item>
+</layer-list>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDarkGray"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:fontFamily="@font/muli_regular"
+                android:text="New employee info"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:id="@+id/personalInfoLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="8dp"
+                android:background="#232323"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:layout_marginHorizontal="8dp"
+                    android:fontFamily="@font/muli_regular"
+                    android:text="Personal details"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:theme="@style/TextLabel">
+
+                    <EditText
+                        android:id="@+id/fullNameEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginHorizontal="8dp"
+                        android:fontFamily="@font/muli_regular"
+                        android:hint="Fullname"
+                        android:inputType="text"
+                        android:textColor="@android:color/white"
+                        android:textColorHighlight="@color/colorGray"
+                        android:textSize="18sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:theme="@style/TextLabel">
+
+                    <EditText
+                        android:id="@+id/ageEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginHorizontal="8dp"
+                        android:fontFamily="@font/muli_regular"
+                        android:hint="Age"
+                        android:inputType="number"
+                        android:textColor="@android:color/white"
+                        android:textColorHighlight="@color/colorGray"
+                        android:textSize="18sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:theme="@style/TextLabel">
+
+                    <com.vicmikhailau.maskededittext.MaskedEditText
+                        android:id="@+id/phoneNumberEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginHorizontal="8dp"
+                        android:fontFamily="@font/muli_regular"
+                        android:hint="Phone number"
+                        android:inputType="number"
+                        android:textColor="@android:color/white"
+                        android:textColorHighlight="@color/colorGray"
+                        android:textSize="18sp"
+                        app:mask="+7 (###)###-##-##" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:theme="@style/TextLabel">
+
+                    <EditText
+                        android:id="@+id/emailEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginHorizontal="8dp"
+                        android:fontFamily="@font/muli_regular"
+                        android:hint="Email"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@android:color/white"
+                        android:textColorHighlight="@color/colorGray"
+                        android:textSize="18sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:theme="@style/TextLabel">
+
+                    <EditText
+                        android:id="@+id/imageUrlEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginHorizontal="8dp"
+                        android:fontFamily="@font/muli_regular"
+                        android:hint="Image url"
+                        android:inputType="text"
+                        android:textColor="@android:color/white"
+                        android:textColorHighlight="@color/colorGray"
+                        android:textSize="18sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/jobInfoLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="8dp"
+                android:background="#232323"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:layout_marginHorizontal="8dp"
+                    android:fontFamily="@font/muli_regular"
+                    android:text="Job info"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:theme="@style/TextLabel">
+
+                    <com.vicmikhailau.maskededittext.MaskedEditText
+                        android:id="@+id/startDateEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginHorizontal="8dp"
+                        android:fontFamily="@font/muli_regular"
+                        android:hint="Start date"
+                        android:textColor="@android:color/white"
+                        android:textColorHighlight="@color/colorGray"
+                        android:textSize="18sp"
+                        app:mask="##/##/####" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Spinner
+                    android:id="@+id/positionSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:layout_marginBottom="16dp"
+                    android:spinnerMode="dropdown"
+                    android:backgroundTint="@color/white"
+                    tools:listitem="@layout/spin_item_position" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/githubInfoLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="8dp"
+                android:background="#232323"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:layout_marginHorizontal="8dp"
+                    android:fontFamily="@font/muli_regular"
+                    android:text="Github details"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/TextLabel">
+
+                    <EditText
+                        android:id="@+id/githubUserNameEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginHorizontal="8dp"
+                        android:fontFamily="@font/muli_regular"
+                        android:hint="Github username"
+                        android:inputType="text"
+                        android:textColor="@android:color/white"
+                        android:textColorHighlight="@color/colorGray"
+                        android:textColorHint="@android:color/white"
+                        android:textSize="18sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/TextLabel">
+
+                    <EditText
+                        android:id="@+id/githubRepoNameEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginHorizontal="8dp"
+                        android:fontFamily="@font/muli_regular"
+                        android:hint="Github username"
+                        android:inputType="text"
+                        android:textColor="@android:color/white"
+                        android:textColorHighlight="@color/colorGray"
+                        android:textColorHint="@android:color/white"
+                        android:textSize="18sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/addButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_background"
+                android:enabled="true"
+                android:textColor="@color/colorWhite"
+                android:text="Add new employee" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
